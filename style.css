@@ -1,0 +1,232 @@
+/* CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My CSS Setup */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Page Layout */
+
+.wrapper {
+  width: 100%;
+}
+
+body > * {
+  /* width: 100px;
+  height: 100px; */
+}
+
+nav {
+  box-sizing: border-box;
+  background-color: rosybrown;
+  width: 100vw;
+  height: 36px;
+  padding: 8px;
+}
+
+header {
+  background-color: salmon;
+  display: block;
+  width: 100%;
+}
+
+.splash-photo {
+  background-color: springgreen;
+}
+
+.splash-photo img {
+  max-width: 945px;
+}
+
+@media all and (max-width: 945px) {
+  .splash-photo img {
+    max-width: 100vw;
+  }
+}
+
+article {
+  background-color: steelblue;
+}
+
+.recomendations {
+  background-color: tomato;
+}
+
+footer {
+  background-color: thistle;
+  width: 100%;
+  height: 200px;
+}
+
+/* Nav layout */
+
+nav {
+  display: flex;
+}
+
+#nav-logo {
+  width: 225px;
+}
+
+#user-logo,
+#menu-logo {
+  height: 16px;
+  flex: 1 1 16px;
+}
+
+/* text positioning */
+
+h2 {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Footer layout */
+
+.footer-flex {
+  display: flex;
+}
+
+.column-more-in {
+  background-color: steelblue;
+  flex: 1;
+}
+
+.column-most-popular {
+  background-color: wheat;
+  flex-basis: 245px;
+  margin-left: 8px;
+}
