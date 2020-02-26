@@ -195,6 +195,7 @@ nav {
 
 #nav-logo {
   flex: 1;
+  /* TO DO: CENTER THE IMG */
 }
 
 #nav-logo img {
@@ -246,4 +247,49 @@ p {
   background-color: wheat;
   flex-basis: 245px;
   margin-left: 8px;
+}
+
+/* Article Diagerams */
+
+.flex-diagram {
+  width: 720px;
+  height: 648px;
+  position: relative;
+}
+
+.flex-diagram img {
+  width: 720px;
+  height: 648px;
+}
+
+.diagram-caption {
+  position: absolute;
+  left: 10px;
+  z-index: 2;
+}
+
+.diagram-caption {
+  width: 173px;
+}
+
+.row-one {
+  top: 130px;
+}
+
+.row-two {
+  top: 430px;
+}
+
+.grid-caption {
+  display: grid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  grid-template-rows: 130px 171px 130px 170px;
+  grid-template-columns: repeat(4, 173px);
+}
+
+.grid-caption p {
+  display: block;
+  width: 100%;
 }
