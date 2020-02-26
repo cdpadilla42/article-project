@@ -255,6 +255,7 @@ p {
   width: 720px;
   height: 648px;
   position: relative;
+  margin: 0 auto;
 }
 
 .flex-diagram img {
@@ -331,4 +332,8 @@ p {
 
 .cap8 {
   grid-area: eight;
+}
+
+.diagram-title {
+  font-weight: bold;
 }
