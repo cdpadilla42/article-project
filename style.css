@@ -287,6 +287,11 @@ p {
   left: 0;
   grid-template-rows: 130px 171px 130px 170px;
   grid-template-columns: repeat(4, 173px);
+  grid-template-areas:
+    'blank blank blank blank'
+    'one two three four'
+    'blank2 blank2 blank2 blank2'
+    'five six seven eight';
 }
 
 .grid-caption p {
