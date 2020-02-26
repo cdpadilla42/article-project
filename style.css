@@ -195,7 +195,6 @@ nav {
 
 #nav-logo {
   flex: 1;
-  /* TO DO: CENTER THE IMG */
 }
 
 #nav-logo img {
@@ -218,12 +217,21 @@ nav {
   height: 16px;
 }
 
+/* Text Styles */
+
+h2 {
+  font-family: georgia, 'times new roman', times, serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 /* text positioning */
 
 h2 {
   width: 600px;
   margin: 0 auto;
   display: block;
+  font-size: 40px;
 }
 
 p {
@@ -300,6 +308,10 @@ p {
   width: 100%;
   box-sizing: border-box;
   padding: 0 5px;
+  font-family: 'Franklin Gothic Medium', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
 }
 
 .cap1 {
