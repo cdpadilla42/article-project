@@ -158,10 +158,13 @@ header {
 
 .splash-photo {
   background-color: springgreen;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .splash-photo img {
-  max-width: 945px;
+  width: 945px;
 }
 
 @media all and (max-width: 945px) {
