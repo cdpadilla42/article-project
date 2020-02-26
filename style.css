@@ -293,3 +293,35 @@ p {
   display: block;
   width: 100%;
 }
+
+.cap1 {
+  grid-area: one;
+}
+
+.cap2 {
+  grid-area: two;
+}
+
+.cap3 {
+  grid-area: three;
+}
+
+.cap4 {
+  grid-area: four;
+}
+
+.cap5 {
+  grid-area: five;
+}
+
+.cap6 {
+  grid-area: six;
+}
+
+.cap7 {
+  grid-area: seven;
+}
+
+.cap8 {
+  grid-area: eight;
+}
