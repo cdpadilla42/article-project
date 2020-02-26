@@ -286,7 +286,7 @@ p {
   top: 0;
   left: 0;
   grid-template-rows: 130px 171px 130px 170px;
-  grid-template-columns: repeat(4, 173px);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     'blank blank blank blank'
     'one two three four'
@@ -297,6 +297,8 @@ p {
 .grid-caption p {
   display: block;
   width: 100%;
+  box-sizing: border-box;
+  padding: 0 5px;
 }
 
 .cap1 {
