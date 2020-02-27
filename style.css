@@ -284,6 +284,16 @@ p {
   margin-left: 8px;
 }
 
+.most-popular-flexbox-wrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.most-popular-flexbox-wrap > * {
+  border: 1px solid red;
+  flex: 1;
+}
+
 .suggested-article img {
   width: 100%;
 }
