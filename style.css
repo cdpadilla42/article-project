@@ -169,8 +169,17 @@ header {
 }
 
 .splash-photo img,
-.splash-photo.caption {
+.splash-photo.caption-wrapper {
   width: 945px;
+}
+
+.splash-photo.caption-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.splash-photo.caption {
+  max-width: 720px;
 }
 
 @media all and (max-width: 945px) {
@@ -239,6 +248,7 @@ h2 {
 h2 {
   width: 600px;
   margin: 0 auto;
+  padding: 20px 0;
   display: block;
   font-size: 40px;
 }
