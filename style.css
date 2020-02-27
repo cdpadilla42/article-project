@@ -298,6 +298,16 @@ p {
   width: 100%;
 }
 
+/* Footer Text */
+
+.more-in-title,
+.most-popular-title {
+  width: 100%;
+  padding: 10px 0;
+  border-top: 2px solid black;
+  font-weight: 800;
+}
+
 /* Article Diagerams */
 
 .flex-diagram {
