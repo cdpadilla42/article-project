@@ -268,12 +268,21 @@ p {
 .column-more-in {
   background-color: steelblue;
   flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.column-more-in > * {
+  flex: 1 1 33.333%;
 }
 
 .column-most-popular {
   background-color: wheat;
   flex-basis: 245px;
   margin-left: 8px;
+}
+
+.suggested-article img {
+  width: 100%;
 }
 
 /* Article Diagerams */
