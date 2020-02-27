@@ -266,12 +266,15 @@ p {
 }
 
 .column-more-in {
-  background-color: steelblue;
   flex: 1;
+}
+
+.more-in-flex {
+  background-color: steelblue;
   display: flex;
   flex-wrap: wrap;
 }
-.column-more-in > * {
+.more-in-flex > * {
   flex: 1 1 33.333%;
 }
 
