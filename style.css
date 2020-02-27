@@ -308,6 +308,20 @@ p {
   font-weight: 800;
 }
 
+/* Nav footer */
+
+.article-nav-flexwrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.article-nav-flexwrapper > * {
+  flex: 1 1 50px;
+  margin-left: 15px;
+  border-top: 1px solid black;
+}
+
 /* Article Diagerams */
 
 .flex-diagram {
