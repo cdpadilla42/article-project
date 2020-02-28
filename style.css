@@ -274,8 +274,15 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
+
 .more-in-flex > * {
   flex: 1 1 33.333%;
+}
+
+@media all and (max-width: 1025px) {
+  .more-in-flex > * {
+    flex: 1 1 50%;
+  }
 }
 
 .column-most-popular {
@@ -291,7 +298,9 @@ p {
 }
 .most-popular-flexbox-wrap > * {
   border: 1px solid red;
+  border-top: 1px solid #666;
   flex: 1;
+  padding: 10px 0;
 }
 
 .footer-top-divider {
