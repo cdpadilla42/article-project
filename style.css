@@ -466,3 +466,14 @@ p {
 .diagram-title {
   font-weight: bold;
 }
+
+/* Article Video */
+
+.video {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.video-caption-credit {
+  font-size: 0.8125rem;
+}
