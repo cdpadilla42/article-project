@@ -235,6 +235,13 @@ nav {
   height: 16px;
 }
 
+/* article layout */
+
+.article-wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
 /* Text Styles */
 
 h2 {
@@ -247,11 +254,19 @@ h3 {
   font-family: georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-size: 1.2rem;
-  width: 600px;
-  margin: 0 auto;
-  display: block;
 
+  display: block;
   margin-bottom: 0.9375rem;
+}
+
+/* -----Article author */
+h4 {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.article-date {
+  font-size: 0.85rem;
 }
 
 /* text positioning */
