@@ -316,7 +316,9 @@ p {
   margin-top: 0;
 }
 
-/* NEXT: ADD FLEX TOOL THAT PUTS SPACE BETWEEN */
+.suggested-article {
+  padding: 8px;
+}
 
 .suggested-article img {
   width: 100%;
@@ -326,10 +328,17 @@ p {
 
 .more-in-title,
 .most-popular-title {
-  width: 100%;
   padding: 10px 0;
+  margin: 0 auto;
   border-top: 2px solid black;
   font-weight: 800;
+}
+.most-popular-title {
+  width: 100%;
+}
+
+.more-in-title {
+  width: calc(100% - 16px);
 }
 
 .footer-nav-list {
