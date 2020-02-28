@@ -293,14 +293,14 @@ p {
 
 .most-popular-flexbox-wrap {
   display: flex;
-  height: 100%;
+  height: calc(100% - 40px);
   flex-direction: column;
 }
 .most-popular-flexbox-wrap > * {
   border: 1px solid red;
   border-top: 1px solid #666;
   flex: 1;
-  padding: 10px 0;
+  /* padding: 10px 0; */
 }
 
 .footer-top-divider {
