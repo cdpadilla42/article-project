@@ -176,6 +176,7 @@ header {
 .splash-photo.caption-wrapper {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 15px;
 }
 
 .splash-photo.caption {
@@ -263,10 +264,12 @@ h3 {
 h4 {
   color: #333;
   font-size: 0.95rem;
+  margin-bottom: 15px;
 }
 
 .article-date {
   font-size: 0.85rem;
+  margin-bottom: 15px;
 }
 
 /* text positioning */
