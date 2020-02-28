@@ -308,6 +308,18 @@ p {
   font-weight: 800;
 }
 
+.footer-nav-list {
+  list-style: none;
+  text-align: center;
+  color: #666;
+  font-size: 11px;
+}
+
+.footer-nav-list li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
 /* Nav footer */
 
 .article-nav-flexwrapper {
