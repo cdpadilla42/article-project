@@ -507,3 +507,15 @@ p {
 .video-caption-credit {
   font-size: 0.8125rem;
 }
+
+/* Article Image */
+
+.img-flex {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#article-photo {
+  width: 100%;
+}
