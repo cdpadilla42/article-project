@@ -150,6 +150,8 @@ nav {
   padding: 8px;
   position: fixed;
   z-index: 999;
+  border-bottom: 1px solid #e2e2e2;
+  background: white;
 }
 
 .content {
@@ -166,7 +168,7 @@ nav {
 
 .splash-photo,
 .splash-caption-area {
-  background-color: springgreen;
+  /* background-color: springgreen; */
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -195,15 +197,15 @@ nav {
 }
 
 article {
-  background-color: steelblue;
+  /* background-color: steelblue; */
 }
 
 .recomendations {
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 footer {
-  background-color: thistle;
+  /* background-color: thistle; */
   width: 100%;
   height: 200px;
 }
@@ -306,7 +308,7 @@ p {
 }
 
 .more-in-flex {
-  background-color: steelblue;
+  /* background-color: steelblue; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -322,7 +324,7 @@ p {
 }
 
 .column-most-popular {
-  background-color: wheat;
+  /* background-color: wheat; */
   flex-basis: 245px;
   margin-left: 8px;
 }
@@ -333,7 +335,7 @@ p {
   flex-direction: column;
 }
 .most-popular-flexbox-wrap > * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-top: 1px solid #666;
   flex: 1;
   /* padding: 10px 0; */
@@ -503,7 +505,7 @@ p {
 
 /* Article Video */
 
-.video {
+.figure {
   width: 600px;
   margin: 0 auto;
 }
