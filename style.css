@@ -333,12 +333,19 @@ p {
   display: flex;
   height: calc(100% - 40px);
   flex-direction: column;
+  justify-content: center;
 }
 .most-popular-flexbox-wrap > * {
   /* border: 1px solid red; */
   border-top: 1px solid #666;
   flex: 1;
   /* padding: 10px 0; */
+}
+
+.most-popular-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-top-divider {
