@@ -144,7 +144,7 @@ body > * {
 
 nav {
   box-sizing: border-box;
-  background-color: rosybrown;
+  /* background-color: rosybrown; */
   width: 100vw;
   height: 50px;
   padding: 8px;
@@ -152,12 +152,16 @@ nav {
   z-index: 999;
 }
 
-header {
+.content {
   position: relative;
   top: 50px;
-  background-color: salmon;
+}
+
+.header {
+  /* background-color: salmon; */
   display: block;
   width: 100%;
+  height: auto;
 }
 
 .splash-photo,
@@ -517,5 +521,6 @@ p {
 }
 
 #article-photo {
-  width: 100%;
+  width: 600px;
+  flex: 1 1 600px;
 }
